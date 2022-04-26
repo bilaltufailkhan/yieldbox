@@ -1,4 +1,27 @@
-h1 {
-  color: #ffee12;
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: radial-gradient(circle, #774aae 0%, #761589 15%, #4f145f 30%, #361444 50%, #12131d 77%, #12131d 98%);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  background-color: #08986b;
+  background-image: linear-gradient(45deg, #08986b 0%, #9b0cb4 100%);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
 }
 /*# sourceMappingURL=style.css.map */

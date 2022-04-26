@@ -1,0 +1,18 @@
+$backgroundGradient: radial-gradient(
+  circle,
+  rgba(119, 74, 174, 1) 0%,
+  rgba(118, 21, 137, 1) 15%,
+  rgba(79, 20, 95, 1) 30%,
+  rgba(54, 20, 68, 1) 50%,
+  rgba(18, 19, 29, 1) 77%,
+  rgba(18, 19, 29, 1) 98%
+);
+
+$whiteColor: #ffffff;
+$primaryColor: rgba(8, 152, 107, 1);
+$secondaryColor: rgba(155, 12, 180, 1);
+$headingGradient: linear-gradient(
+  45deg,
+  rgba(8, 152, 107, 1) 0%,
+  rgba(155, 12, 180, 1) 100%
+);

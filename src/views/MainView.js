@@ -1,12 +1,22 @@
 import { Col, Container, Row } from "react-bootstrap";
+import { FullPage, Slide } from "react-full-page/lib";
+import Navigation from "../components/global/Navigation";
+import Slider from "../components/Slider";
 
 const AdminView = (props) => {
   return (
     <>
-      <Container>
+      <Container fluid>
         <Row>
           <Col>
-            <h1>Yield Box</h1>
+            <FullPage duration={10}>
+              <Slide>
+                <Navigation />
+              </Slide>
+              <Slide>
+                <Slider />
+              </Slide>
+            </FullPage>
           </Col>
         </Row>
       </Container>
