@@ -6,14 +6,10 @@
 }
 body {
   background: $backgroundGradient;
+  font-family: $fontStack;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1 {
   background-color: $primaryColor;
   background-image: $headingGradient;
   background-size: 100%;
@@ -24,10 +20,43 @@ h6 {
   -moz-text-fill-color: transparent;
 }
 
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $fontStack;
+}
+
+p,
+span {
+  font-weight: 600;
+  font-size: 1rem;
+  color: $whiteColor;
+  font-family: $fontStack;
+}
+
 .slider__section {
+  .slider__content {
+    h2 {
+      color: $whiteColor;
+      font-size: 8rem;
+      margin-left: 1rem;
+      font-weight: 700;
+    }
+    img {
+      width: auto;
+      height: 250px;
+    }
+  }
 }
 
 .about__section {
+  .about__content {
+    p {
+      font-size: 4rem;
+    }
+  }
 }
 
 .advantage__section {
@@ -58,4 +87,17 @@ h6 {
 }
 
 .tokenomics__section {
+}
+
+.footer__section {
+  .footer__socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    a {
+      color: $whiteColor;
+      text-decoration: none;
+    }
+  }
 }
