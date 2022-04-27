@@ -75,6 +75,30 @@ span {
   font-size: 4rem;
 }
 
+.staking__section .staking__content .card {
+  background: rgba(255, 255, 255, 0.1) !important;
+  border-radius: 1.2rem;
+  border: none;
+}
+
+.staking__section .staking__content .card img {
+  margin-bottom: 1rem;
+}
+
+.staking__section .staking__content .card .card-text {
+  font-size: 1rem;
+}
+
+.staking__section .staking__content h2 {
+  font-size: 5rem;
+  color: #08986b;
+  font-weight: 800;
+}
+
+.staking__section .staking__content p {
+  font-size: 1.2rem;
+}
+
 .footer__section .footer__socials {
   display: -webkit-box;
   display: -ms-flexbox;
