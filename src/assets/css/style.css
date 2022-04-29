@@ -75,6 +75,32 @@ span {
   font-size: 4rem;
 }
 
+.earning__section .earning__content h2 {
+  font-size: 4rem;
+  color: #08986b;
+  font-weight: 800;
+}
+
+.earning__section .earning__content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.earning__section .earning__content ul li {
+  margin-top: 1rem;
+}
+
+.earning__section .earning__content ul li p {
+  font-size: 1.2rem;
+}
+
+.earning__section .earning__content ul li p span {
+  color: #08986b;
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
 .staking__section .staking__content .card {
   background: rgba(255, 255, 255, 0.1) !important;
   border-radius: 1.2rem;

@@ -69,6 +69,29 @@ span {
 }
 
 .earning__section {
+  .earning__content {
+    h2 {
+      font-size: 4rem;
+      color: $primaryColor;
+      font-weight: 800;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      li {
+        margin-top: 1rem;
+        p {
+          font-size: 1.2rem;
+          span {
+            color: $primaryColor;
+            font-weight: 800;
+            font-size: 1.2rem;
+          }
+        }
+      }
+    }
+  }
 }
 
 .faqs__section {
