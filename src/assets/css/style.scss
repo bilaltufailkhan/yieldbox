@@ -60,13 +60,47 @@ span {
 }
 
 .advantage__section {
+  .advantage__table {
+    background: $transparentBackground;
+    border-radius: 1.2rem;
+    table {
+      color: $whiteColor;
+      height: 50vh;
+      width: 80vw !important;
+      thead {
+        tr {
+          th {
+            font-size: 1.5rem !important;
+          }
+        }
+      }
+      tbody {
+        tr {
+          td {
+            &:first-child {
+              font-size: 1rem;
+              font-weight: 600;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .advantage__content {
+    h2 {
+      font-size: 4rem;
+      color: $primaryColor;
+      font-weight: 800;
+    }
+  }
 }
 
-.buy__section {
-}
+// .buy__section {
+// }
 
-.documents__section {
-}
+// .documents__section {
+// }
 
 .earning__section {
   .earning__content {
@@ -94,13 +128,34 @@ span {
   }
 }
 
-.faqs__section {
-}
+// .faqs__section {
+// }
 
-.mobileapp__section {
-}
+// .mobileapp__section {
+// }
 
 .rewards__section {
+  .rewards__table {
+    width: 57vw;
+    height: 10vh;
+    tr {
+      background: $transparentBackground;
+      color: $primaryColor;
+      font-weight: 700;
+      td {
+        span {
+          color: $whiteColor;
+        }
+      }
+    }
+  }
+  .rewards__content {
+    h2 {
+      font-size: 4rem;
+      color: $primaryColor;
+      font-weight: 800;
+    }
+  }
 }
 
 .staking__section {
@@ -128,9 +183,80 @@ span {
 }
 
 .todo__section {
+  ::-webkit-scrollbar {
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: $transparentBackground;
+    border-radius: 1rem;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: $primaryColor;
+    border-radius: 1rem;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: $secondaryColor;
+  }
+
+  .todo__pill {
+    background: $transparentBackground;
+    border-radius: 1rem;
+  }
+  .pills__list {
+    width: 70vw;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 1rem;
+    height: 70px;
+  }
+  .todo__content {
+    h2 {
+      font-size: 5rem;
+      color: $primaryColor;
+      font-weight: 800;
+    }
+    h4 {
+      font-size: 2.5rem;
+      color: $primaryColor;
+      font-weight: 700;
+    }
+  }
 }
 
 .tokenomics__section {
+  .card {
+    background: $transparentBackground;
+    text-transform: uppercase;
+    img {
+      width: 80px !important;
+      height: auto;
+      margin-bottom: 1rem;
+    }
+  }
+  .tokenomics__content {
+    h2 {
+      font-size: 5rem;
+      color: $primaryColor;
+      font-weight: 800;
+    }
+  }
+  table {
+    font-size: 1.2rem;
+    line-height: 36px;
+    tr {
+      border: none !important;
+      color: $whiteColor;
+      td {
+        &:last-child {
+          color: $primaryColor;
+          font-weight: 600;
+        }
+      }
+    }
+  }
 }
 
 .footer__section {

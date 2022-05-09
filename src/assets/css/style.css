@@ -75,6 +75,32 @@ span {
   font-size: 4rem;
 }
 
+.advantage__section .advantage__table {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 1.2rem;
+}
+
+.advantage__section .advantage__table table {
+  color: #ffffff;
+  height: 50vh;
+  width: 80vw !important;
+}
+
+.advantage__section .advantage__table table thead tr th {
+  font-size: 1.5rem !important;
+}
+
+.advantage__section .advantage__table table tbody tr td:first-child {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.advantage__section .advantage__content h2 {
+  font-size: 4rem;
+  color: #08986b;
+  font-weight: 800;
+}
+
 .earning__section .earning__content h2 {
   font-size: 4rem;
   color: #08986b;
@@ -101,6 +127,27 @@ span {
   font-size: 1.2rem;
 }
 
+.rewards__section .rewards__table {
+  width: 57vw;
+  height: 10vh;
+}
+
+.rewards__section .rewards__table tr {
+  background: rgba(255, 255, 255, 0.1);
+  color: #08986b;
+  font-weight: 700;
+}
+
+.rewards__section .rewards__table tr td span {
+  color: #ffffff;
+}
+
+.rewards__section .rewards__content h2 {
+  font-size: 4rem;
+  color: #08986b;
+  font-weight: 800;
+}
+
 .staking__section .staking__content .card {
   background: rgba(255, 255, 255, 0.1) !important;
   border-radius: 1.2rem;
@@ -123,6 +170,81 @@ span {
 
 .staking__section .staking__content p {
   font-size: 1.2rem;
+}
+
+.todo__section ::-webkit-scrollbar {
+  height: 6px;
+}
+
+.todo__section ::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 1rem;
+}
+
+.todo__section ::-webkit-scrollbar-thumb {
+  background: #08986b;
+  border-radius: 1rem;
+}
+
+.todo__section ::-webkit-scrollbar-thumb:hover {
+  background: #9b0cb4;
+}
+
+.todo__section .todo__pill {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 1rem;
+}
+
+.todo__section .pills__list {
+  width: 70vw;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding: 1rem;
+  height: 70px;
+}
+
+.todo__section .todo__content h2 {
+  font-size: 5rem;
+  color: #08986b;
+  font-weight: 800;
+}
+
+.todo__section .todo__content h4 {
+  font-size: 2.5rem;
+  color: #08986b;
+  font-weight: 700;
+}
+
+.tokenomics__section .card {
+  background: rgba(255, 255, 255, 0.1);
+  text-transform: uppercase;
+}
+
+.tokenomics__section .card img {
+  width: 80px !important;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.tokenomics__section .tokenomics__content h2 {
+  font-size: 5rem;
+  color: #08986b;
+  font-weight: 800;
+}
+
+.tokenomics__section table {
+  font-size: 1.2rem;
+  line-height: 36px;
+}
+
+.tokenomics__section table tr {
+  border: none !important;
+  color: #ffffff;
+}
+
+.tokenomics__section table tr td:last-child {
+  color: #08986b;
+  font-weight: 600;
 }
 
 .footer__section .footer__socials {

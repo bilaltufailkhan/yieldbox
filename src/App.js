@@ -4,6 +4,7 @@ import Auth from './layout/Auth';
 import Main from './layout/Main';
 import routes from './routes';
 import store from './store';
+import "bootstrap/dist/css/bootstrap.min.css"
 
 function App() {
 	return (
@@ -31,7 +32,7 @@ function App() {
 									);
 							}
 						})}
-						<Redirect to="/"/>
+						<Redirect to="/" />
 					</Switch>
 				</BrowserRouter>
 			</Provider>
