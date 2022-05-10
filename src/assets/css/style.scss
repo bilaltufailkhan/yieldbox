@@ -96,11 +96,52 @@ span {
   }
 }
 
-// .buy__section {
-// }
+.buy__section {
+  h2 {
+    font-size: 4rem;
+    color: $primaryColor;
+    font-weight: 800;
+  }
+  .card {
+    background: $transparentBackground;
+    h5 {
+      font-size: 1.2rem;
+    }
+    img {
+      margin-bottom: 1.5rem;
+    }
+    p {
+      font-weight: normal;
+      font-size: 0.8rem;
+    }
+  }
+}
 
-// .documents__section {
-// }
+.documents__section {
+  h2 {
+    font-size: 5rem;
+    color: $primaryColor;
+    font-weight: 800;
+  }
+  .card {
+    background: $transparentBackground;
+    h5 {
+      text-transform: uppercase;
+    }
+    img {
+      margin-bottom: 1rem;
+    }
+    .btn__link {
+      background: transparent;
+      border: none;
+      outline: 0;
+      box-shadow: none;
+      color: $whiteColor;
+      text-decoration: none;
+      font-size: 1.2rem;
+    }
+  }
+}
 
 .earning__section {
   .earning__content {
@@ -128,11 +169,38 @@ span {
   }
 }
 
-// .faqs__section {
-// }
+.faqs__section {
+  h2 {
+    font-size: 4rem;
+    color: $primaryColor;
+    font-weight: 800;
+  }
+  .accordion {
+    background-color: transparent;
+  }
+  .accordion-header {
+    background-color: transparent;
+  }
+  .accordion-button {
+    background-color: rgba($color: #000, $alpha: 0.1);
+    box-shadow: none !important;
+    border: none !important;
+    outline: 0 !important;
+    color: red !important;
+  }
+  .accordion-body {
+    background: rgba($color: #000, $alpha: 0.1);
+    text-align: center;
+  }
+}
 
-// .mobileapp__section {
-// }
+.mobileapp__section {
+  h2 {
+    font-size: 4rem;
+    color: $primaryColor;
+    font-weight: 800;
+  }
+}
 
 .rewards__section {
   .rewards__table {
@@ -182,36 +250,21 @@ span {
   }
 }
 
+// Todos Pills and Scrollbar
+.todo__pill {
+  background: $transparentBackground;
+  border-radius: 1rem;
+}
+.pills__list {
+  width: 70vw;
+  height: 140px;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+//Todos
+
 .todo__section {
-  ::-webkit-scrollbar {
-    height: 6px;
-  }
-
-  ::-webkit-scrollbar-track {
-    background: $transparentBackground;
-    border-radius: 1rem;
-  }
-
-  ::-webkit-scrollbar-thumb {
-    background: $primaryColor;
-    border-radius: 1rem;
-  }
-
-  ::-webkit-scrollbar-thumb:hover {
-    background: $secondaryColor;
-  }
-
-  .todo__pill {
-    background: $transparentBackground;
-    border-radius: 1rem;
-  }
-  .pills__list {
-    width: 70vw;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    padding: 1rem;
-    height: 70px;
-  }
   .todo__content {
     h2 {
       font-size: 5rem;

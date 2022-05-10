@@ -101,6 +101,58 @@ span {
   font-weight: 800;
 }
 
+.buy__section h2 {
+  font-size: 4rem;
+  color: #08986b;
+  font-weight: 800;
+}
+
+.buy__section .card {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.buy__section .card h5 {
+  font-size: 1.2rem;
+}
+
+.buy__section .card img {
+  margin-bottom: 1.5rem;
+}
+
+.buy__section .card p {
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+
+.documents__section h2 {
+  font-size: 5rem;
+  color: #08986b;
+  font-weight: 800;
+}
+
+.documents__section .card {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.documents__section .card h5 {
+  text-transform: uppercase;
+}
+
+.documents__section .card img {
+  margin-bottom: 1rem;
+}
+
+.documents__section .card .btn__link {
+  background: transparent;
+  border: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
 .earning__section .earning__content h2 {
   font-size: 4rem;
   color: #08986b;
@@ -125,6 +177,40 @@ span {
   color: #08986b;
   font-weight: 800;
   font-size: 1.2rem;
+}
+
+.faqs__section h2 {
+  font-size: 4rem;
+  color: #08986b;
+  font-weight: 800;
+}
+
+.faqs__section .accordion {
+  background-color: transparent;
+}
+
+.faqs__section .accordion-header {
+  background-color: transparent;
+}
+
+.faqs__section .accordion-button {
+  background-color: rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border: none !important;
+  outline: 0 !important;
+  color: red !important;
+}
+
+.faqs__section .accordion-body {
+  background: rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.mobileapp__section h2 {
+  font-size: 4rem;
+  color: #08986b;
+  font-weight: 800;
 }
 
 .rewards__section .rewards__table {
@@ -172,35 +258,16 @@ span {
   font-size: 1.2rem;
 }
 
-.todo__section ::-webkit-scrollbar {
-  height: 6px;
-}
-
-.todo__section ::-webkit-scrollbar-track {
+.todo__pill {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 1rem;
 }
 
-.todo__section ::-webkit-scrollbar-thumb {
-  background: #08986b;
-  border-radius: 1rem;
-}
-
-.todo__section ::-webkit-scrollbar-thumb:hover {
-  background: #9b0cb4;
-}
-
-.todo__section .todo__pill {
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 1rem;
-}
-
-.todo__section .pills__list {
+.pills__list {
   width: 70vw;
-  overflow-x: scroll;
+  height: 140px;
   overflow-y: hidden;
-  padding: 1rem;
-  height: 70px;
+  overflow-x: scroll;
 }
 
 .todo__section .todo__content h2 {

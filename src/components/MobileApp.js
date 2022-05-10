@@ -4,10 +4,11 @@ import { Col, Container, Row } from "react-bootstrap";
 const MobileApp = () => {
   return (
     <div className="mobileapp__section">
-      <Container>
-        <Row className="d-flex justify-content-center align-items-center">
-          <Col xs="12" className="vh-100 text-center">
-            <h1>MobileApp</h1>
+      <Container className="min-vh-100 d-flex flex-column justify-content-center align-items-center">
+        <Row className="">
+          <Col xs="12" className="text-center">
+            <h2>Yieldbox Mobile App</h2>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantiu m doloremque laudantium, totam rem aperiam, eaque ipsa.</p>
           </Col>
         </Row>
       </Container>
