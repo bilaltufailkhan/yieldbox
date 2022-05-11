@@ -13,7 +13,7 @@ const About = () => {
                 Reflections"
               </p>
             </Container>
-            <Row className="justify-content-center">
+            <Row className="justify-content-center w-100">
               <Col md="3" sm="12" className="my-3">
                 <Button className="btn-gradient-dark btn-block btn-lg">
                   Buy on Pancakes

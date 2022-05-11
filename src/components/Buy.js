@@ -8,13 +8,13 @@ const Buy = () => {
   return (
     <div className="buy__section">
       <Container className="min-vh-100 d-flex flex-column justify-content-center align-items-center">
-        <Row className="">
+        <Row className="w-100">
           <Col xs="12" className="text-center">
             <h2>How to Buy</h2>
             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantiu m doloremque laudantium, totam rem aperiam, eaque ipsa.</p>
           </Col>
           <Col xs="12" className="text-center">
-            <Row className="justify-content-center mt-5">
+            <Row className="justify-content-center mt-5 w-100">
               <Col md="4" sm="12">
                 <Card className="text-center text-white p-5">
                   <div className="card__content">

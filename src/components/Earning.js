@@ -5,7 +5,7 @@ const Earning = () => {
   return (
     <div className="earning__section">
       <Container className="min-vh-100 d-flex">
-        <Row className="justify-content-center align-items-center vw-100">
+        <Row className="justify-content-center align-items-center w-100">
           <Col xs="12" md="6" className="earning__content">
             <h2>How much can I will earn?</h2>
             <ul>

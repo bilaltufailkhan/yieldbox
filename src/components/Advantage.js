@@ -15,9 +15,9 @@ const Advantage = () => {
             <h2>Competitive Advantage</h2>
           </Col>
         </Row>
-        <Row className="advantage__table my-3 p-4">
+        <Row className="advantage__table w-100 my-3 p-4">
           <Col lg="12" md="12">
-            <Table borderless responsive="sm" className="align-middle" style={{ width: "100% !important" }}>
+            <Table borderless responsive="sm" className="align-middle">
               <thead>
                 <tr>
                   <th>Features</th>

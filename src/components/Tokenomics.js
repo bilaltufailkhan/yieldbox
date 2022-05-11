@@ -7,12 +7,12 @@ const Tokenomics = () => {
   return (
     <div className="tokenomics__section">
       <Container className="min-vh-100 d-flex flex-column justify-content-center">
-        <Row className="">
+        <Row className="w-100">
           <Col xs="12" md="6" className="tokenomics__content vw-100 text-center">
             <h2>Tokenomics</h2>
           </Col>
         </Row>
-        <Row className="align-items-center">
+        <Row className="align-items-center w-100">
           <Col lg="6" md="12" className="my-3">
             <Table responsive="sm">
               <tr>
@@ -39,7 +39,7 @@ const Tokenomics = () => {
           </Col>
           <Col lg="6" md="12" className="my-3">
             <Container fluid>
-              <Row className="my-3">
+              <Row className="my-3 w-100">
                 <Col xs="6">
                   <Card className="text-center text-white p-3">
                     <div className="card__content">
@@ -57,7 +57,7 @@ const Tokenomics = () => {
                   </Card>
                 </Col>
               </Row>
-              <Row className="my-3">
+              <Row className="my-3 w-100">
                 <Col xs="6">
                   <Card className="text-center text-white p-3">
                     <div className="card__content">

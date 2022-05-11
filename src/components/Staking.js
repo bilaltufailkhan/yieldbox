@@ -8,7 +8,7 @@ const Staking = () => {
   return (
     <div className="staking__section">
       <Container className="min-vh-100 d-flex">
-        <Row className="align-items-center vw-100">
+        <Row className="align-items-center w-100">
           <Col xs="12" className="text-center staking__content px-5">
             <Container className="px-5">
               <p>FIRST REBASE AUTO-STAKING WITH BUSD REFLECTION</p>
@@ -26,7 +26,7 @@ const Staking = () => {
                   >
                     <Card.Body>
                       <img src={apy} width="auto" height="50px" />
-                      <Card.Text>HIGHEST APY PROTOCOL</Card.Text>
+                      <Card.Text>HIGHEST APY<br />PROTOCOL</Card.Text>
                     </Card.Body>
                   </Card>
                 </Col>
@@ -48,7 +48,7 @@ const Staking = () => {
                   >
                     <Card.Body>
                       <img src={reflection} width="auto" height="50px" />
-                      <Card.Text>Hourly BUSD Reflection</Card.Text>
+                      <Card.Text>Hourly BUSD<br />Reflection</Card.Text>
                     </Card.Body>
                   </Card>
                 </Col>

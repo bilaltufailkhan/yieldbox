@@ -11,7 +11,7 @@ const Rewards = () => {
             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantiu m doloremque laudantium, totam rem aperiam, eaque ipsa.</p>
           </Col>
         </Row>
-        <Row className="my-3">
+        <Row className="my-3 w-100 justify-content-center">
           <Col xs="12" className="my-3">
             <Table className="rewards__table align-center text-center rounded" responsive="sm">
               <tr>

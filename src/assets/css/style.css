@@ -83,7 +83,6 @@ span {
 .advantage__section .advantage__table table {
   color: #ffffff;
   height: 50vh;
-  width: 80vw !important;
 }
 
 .advantage__section .advantage__table table thead tr th {
@@ -214,7 +213,6 @@ span {
 }
 
 .rewards__section .rewards__table {
-  width: 57vw;
   height: 10vh;
 }
 
@@ -258,16 +256,37 @@ span {
   font-size: 1.2rem;
 }
 
+.pills__list {
+  overflow: auto;
+  white-space: nowrap;
+}
+
 .todo__pill {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 1rem;
+  margin: 1rem;
+  display: inline-block;
 }
 
-.pills__list {
-  width: 70vw;
-  height: 140px;
-  overflow-y: hidden;
-  overflow-x: scroll;
+.todo__section ::-webkit-scrollbar {
+  height: 0.5rem;
+}
+
+.todo__section ::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px #9b0cb4;
+          box-shadow: inset 0 0 6px #9b0cb4;
+  border-radius: 1rem;
+}
+
+.todo__section ::-webkit-scrollbar-thumb {
+  background-color: #08986b;
+  border-radius: 1rem;
+}
+
+.todo__section h4 {
+  color: #08986b;
+  font-weight: 600;
+  margin-top: 1.5rem;
 }
 
 .todo__section .todo__content h2 {
@@ -333,5 +352,44 @@ span {
 .footer__section .footer__socials a {
   color: #ffffff;
   text-decoration: none;
+}
+
+@media screen and (max-width: 720px) {
+  h1 {
+    background-color: #08986b;
+    background-image: linear-gradient(45deg, #08986b 0%, #9b0cb4 100%);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-size: 1.4rem !important;
+  }
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.4rem !important;
+  }
+  p,
+  span {
+    font-weight: 600;
+    font-size: 0.8rem !important;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+  }
+  .slider__section .slider__content h2 {
+    color: #ffffff;
+    font-size: 2rem;
+    margin-left: 1rem;
+    font-weight: 600;
+  }
+  .slider__section .slider__content img {
+    width: auto;
+    height: 100px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
