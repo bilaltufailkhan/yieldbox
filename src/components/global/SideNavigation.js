@@ -11,7 +11,7 @@ const SideNavigation = () => {
                 smooth={true}
                 spy={true}
                 duration={200}
-                className="nav__link nav-link"
+                className="nav__link"
             >
                 <img src={linkImg} width="40px" height="auto" />
             </ScrollLink>
@@ -19,7 +19,7 @@ const SideNavigation = () => {
                 smooth={true}
                 spy={true}
                 duration={200}
-                className="nav__link nav-link"
+                className="nav__link"
             >
                 <img src={linkImg} width="40px" height="auto" />
             </ScrollLink>
@@ -27,7 +27,7 @@ const SideNavigation = () => {
                 smooth={true}
                 spy={true}
                 duration={200}
-                className="nav__link nav-link"
+                className="nav__link"
             >
                 <img src={linkImg} width="40px" height="auto" />
             </ScrollLink>
@@ -35,7 +35,7 @@ const SideNavigation = () => {
                 smooth={true}
                 spy={true}
                 duration={200}
-                className="nav__link nav-link"
+                className="nav__link"
             >
                 <img src={linkImg} width="40px" height="auto" />
             </ScrollLink>
@@ -43,7 +43,7 @@ const SideNavigation = () => {
                 smooth={true}
                 spy={true}
                 duration={200}
-                className="nav__link nav-link"
+                className="nav__link"
             >
                 <img src={linkImg} width="40px" height="auto" />
             </ScrollLink>
@@ -51,7 +51,7 @@ const SideNavigation = () => {
                 smooth={true}
                 spy={true}
                 duration={200}
-                className="nav__link nav-link"
+                className="nav__link"
             >
                 <img src={linkImg} width="40px" height="auto" />
             </ScrollLink>
@@ -59,7 +59,7 @@ const SideNavigation = () => {
                 smooth={true}
                 spy={true}
                 duration={200}
-                className="nav__link nav-link"
+                className="nav__link"
             >
                 <img src={linkImg} width="40px" height="auto" />
             </ScrollLink>
@@ -67,7 +67,7 @@ const SideNavigation = () => {
                 smooth={true}
                 spy={true}
                 duration={200}
-                className="nav__link nav-link"
+                className="nav__link"
             >
                 <img src={linkImg} width="40px" height="auto" />
             </ScrollLink>
@@ -75,7 +75,7 @@ const SideNavigation = () => {
                 smooth={true}
                 spy={true}
                 duration={200}
-                className="nav__link nav-link"
+                className="nav__link"
             >
                 <img src={linkImg} width="40px" height="auto" />
             </ScrollLink>
@@ -83,7 +83,7 @@ const SideNavigation = () => {
                 smooth={true}
                 spy={true}
                 duration={200}
-                className="nav__link nav-link"
+                className="nav__link"
             >
                 <img src={linkImg} width="40px" height="auto" />
             </ScrollLink>
@@ -91,7 +91,7 @@ const SideNavigation = () => {
                 smooth={true}
                 spy={true}
                 duration={200}
-                className="nav__link nav-link"
+                className="nav__link"
             >
                 <img src={linkImg} width="40px" height="auto" />
             </ScrollLink>
@@ -99,7 +99,7 @@ const SideNavigation = () => {
                 smooth={true}
                 spy={true}
                 duration={200}
-                className="nav__link nav-link"
+                className="nav__link"
             >
                 <img src={linkImg} width="40px" height="auto" />
             </ScrollLink>
