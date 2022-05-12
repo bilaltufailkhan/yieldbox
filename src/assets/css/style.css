@@ -32,454 +32,68 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-h1 {
-  background-color: #08986b;
-  background-image: linear-gradient(45deg, #08986b 0%, #9b0cb4 100%);
-  background-size: 100%;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Poppins", sans-serif;
-}
-
-p,
-span {
-  font-weight: 600;
-  font-size: 1rem;
-  color: #ffffff;
-  font-family: "Poppins", sans-serif;
-}
-
-.main__view {
-  display: -ms-grid;
-  display: grid;
-  place-items: center;
-}
-
-.side__nav {
-  position: fixed;
-  height: 80vh;
-  padding: 5rem 12rem;
-  right: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-.side__nav .nav__link:hover {
-  cursor: pointer;
-}
-
-.side__nav .nav__link img {
-  -webkit-filter: none;
-          filter: none;
-}
-
-.side__nav .nav__link:focus img {
-  -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
-}
-
-.slider__section .slider__content h2 {
-  color: #ffffff;
-  font-size: 8rem;
-  margin-left: 1rem;
-  font-weight: 700;
-}
-
-.slider__section .slider__content img {
-  width: auto;
-  height: 250px;
-}
-
-.about__section .about__content p {
-  font-size: 4rem;
-}
-
-.advantage__section .advantage__table {
+.offcanvas {
+  width: 300px;
   background: rgba(255, 255, 255, 0.1);
-  border-radius: 1.2rem;
+  padding-top: 15rem;
+  padding-bottom: 15rem;
 }
 
-.advantage__section .advantage__table table {
-  color: #ffffff;
-  height: 50vh;
-}
-
-.advantage__section .advantage__table table thead tr th {
-  font-size: 1.5rem !important;
-}
-
-.advantage__section .advantage__table table tbody tr td:first-child {
-  font-size: 1rem;
+.offcanvas .nav-link {
+  color: #08986b;
   font-weight: 600;
-}
-
-.advantage__section .advantage__content h2 {
-  font-size: 4rem;
-  color: #08986b;
-  font-weight: 800;
-}
-
-.buy__section h2 {
-  font-size: 4rem;
-  color: #08986b;
-  font-weight: 800;
-}
-
-.buy__section .card {
-  background: rgba(255, 255, 255, 0.1);
-}
-
-.buy__section .card h5 {
   font-size: 1.2rem;
+  line-height: 50px;
 }
 
-.buy__section .card img {
-  margin-bottom: 1.5rem;
+.offcanvas .nav-link img {
+  width: 24px;
+  height: auto;
+  margin-right: 0.2rem;
 }
 
-.buy__section .card p {
-  font-weight: normal;
-  font-size: 0.8rem;
+.offcanvas .logo {
+  font-size: 2.1rem;
 }
 
-.documents__section h2 {
-  font-size: 5rem;
-  color: #08986b;
-  font-weight: 800;
+.offcanvas .logo .logo__img {
+  width: 2.8rem;
+  height: auto;
 }
 
-.documents__section .card {
+.navbar {
   background: rgba(255, 255, 255, 0.1);
 }
 
-.documents__section .card h5 {
-  text-transform: uppercase;
+.navbar .navbar-brand {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 0;
+  letter-spacing: 0.1rem;
 }
 
-.documents__section .card img {
-  margin-bottom: 1rem;
+.navbar .navbar-brand img {
+  width: 1.8rem;
+  height: auto;
 }
 
-.documents__section .card .btn__link {
-  background: transparent;
-  border: none;
+.navbar .btn {
+  background: -webkit-gradient(linear, left top, left bottom, from(#084498), to(#9b0cb4));
+  background: linear-gradient(180deg, #084498 0%, #9b0cb4 100%);
   outline: 0;
+  border: none;
   -webkit-box-shadow: none;
           box-shadow: none;
+}
+
+.navbar .nav-link i {
   color: #ffffff;
-  text-decoration: none;
-  font-size: 1.2rem;
+  margin-right: 1rem;
 }
 
-.earning__section .earning__content h2 {
-  font-size: 4rem;
-  color: #08986b;
-  font-weight: 800;
-}
-
-.earning__section .earning__content ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.earning__section .earning__content ul li {
-  margin-top: 1rem;
-}
-
-.earning__section .earning__content ul li p {
-  font-size: 1.2rem;
-}
-
-.earning__section .earning__content ul li p span {
-  color: #08986b;
-  font-weight: 800;
-  font-size: 1.2rem;
-}
-
-.faqs__section h2 {
-  font-size: 4rem;
-  color: #08986b;
-  font-weight: 800;
-}
-
-.faqs__section .accordion {
-  background-color: transparent;
-}
-
-.faqs__section .accordion-header {
-  background-color: transparent;
-}
-
-.faqs__section .accordion-button {
-  background-color: rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
-  border: none !important;
-  outline: 0 !important;
-  color: red !important;
-}
-
-.faqs__section .accordion-body {
-  background: rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
-
-.mobileapp__section h2 {
-  font-size: 4rem;
-  color: #08986b;
-  font-weight: 800;
-}
-
-.rewards__section .rewards__table {
-  height: 10vh;
-}
-
-.rewards__section .rewards__table tr {
+.card {
   background: rgba(255, 255, 255, 0.1);
-  color: #08986b;
-  font-weight: 700;
-}
-
-.rewards__section .rewards__table tr td span {
   color: #ffffff;
-}
-
-.rewards__section .rewards__content h2 {
-  font-size: 4rem;
-  color: #08986b;
-  font-weight: 800;
-}
-
-.staking__section .staking__content .card {
-  background: rgba(255, 255, 255, 0.1) !important;
-  border-radius: 1.2rem;
-  border: none;
-}
-
-.staking__section .staking__content .card img {
-  margin-bottom: 1rem;
-}
-
-.staking__section .staking__content .card .card-text {
-  font-size: 1rem;
-}
-
-.staking__section .staking__content h2 {
-  font-size: 5rem;
-  color: #08986b;
-  font-weight: 800;
-}
-
-.staking__section .staking__content p {
-  font-size: 1.2rem;
-}
-
-.pills__list {
-  overflow: auto;
-  white-space: nowrap;
-}
-
-.todo__pill {
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 1rem;
-  margin: 1rem;
-  display: inline-block;
-}
-
-.todo__section ::-webkit-scrollbar {
-  height: 0.5rem;
-}
-
-.todo__section ::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px #9b0cb4;
-          box-shadow: inset 0 0 6px #9b0cb4;
-  border-radius: 1rem;
-}
-
-.todo__section ::-webkit-scrollbar-thumb {
-  background-color: #08986b;
-  border-radius: 1rem;
-}
-
-.todo__section h4 {
-  color: #08986b;
-  font-weight: 600;
-  margin-top: 1.5rem;
-}
-
-.todo__section .todo__content h2 {
-  font-size: 5rem;
-  color: #08986b;
-  font-weight: 800;
-}
-
-.todo__section .todo__content h4 {
-  font-size: 2.5rem;
-  color: #08986b;
-  font-weight: 700;
-}
-
-.tokenomics__section .card {
-  background: rgba(255, 255, 255, 0.1);
-  text-transform: uppercase;
-}
-
-.tokenomics__section .card img {
-  width: 80px !important;
-  height: auto;
-  margin-bottom: 1rem;
-}
-
-.tokenomics__section .tokenomics__content h2 {
-  font-size: 5rem;
-  color: #08986b;
-  font-weight: 800;
-}
-
-.tokenomics__section table {
-  font-size: 1.2rem;
-  line-height: 36px;
-}
-
-.tokenomics__section table tr {
-  border: none !important;
-  color: #ffffff;
-}
-
-.tokenomics__section table tr td:last-child {
-  color: #08986b;
-  font-weight: 600;
-}
-
-.footer__section .footer__socials {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.footer__section .footer__socials a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-@media screen and (max-width: 540px) {
-  .side__nav {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  .side__nav {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 960px) {
-  .side__nav {
-    position: fixed;
-    height: 80vh;
-    padding: 5rem 2rem;
-    right: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-  }
-  .side__nav a img {
-    -webkit-filter: grayscale(100%);
-            filter: grayscale(100%);
-    width: 30px;
-  }
-  .side__nav a:focus img {
-    -webkit-filter: none;
-            filter: none;
-  }
-}
-
-@media screen and (max-width: 1140px) {
-  .side__nav {
-    position: fixed;
-    height: 80vh;
-    padding: 5rem 2rem;
-    right: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-  }
-  .side__nav a img {
-    -webkit-filter: grayscale(100%);
-            filter: grayscale(100%);
-    width: 35px;
-  }
-  .side__nav a:focus img {
-    -webkit-filter: none;
-            filter: none;
-  }
-}
-
-@media screen and (max-width: 1280px) {
-  .side__nav {
-    padding: 5rem 1rem;
-  }
-}
-
-@media screen and (max-width: 1368px) {
-  .side__nav {
-    padding: 5rem 2rem;
-  }
-}
-
-@media screen and (min-width: 1369px) {
-  .side__nav {
-    padding: 5rem 10rem;
-  }
 }
 /*# sourceMappingURL=style.css.map */
