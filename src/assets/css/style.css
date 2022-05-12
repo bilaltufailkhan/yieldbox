@@ -78,6 +78,10 @@ body {
   height: auto;
 }
 
+.navbar .navbar-brand:hover {
+  color: #ffffff;
+}
+
 .navbar .btn {
   background: -webkit-gradient(linear, left top, left bottom, from(#084498), to(#9b0cb4));
   background: linear-gradient(180deg, #084498 0%, #9b0cb4 100%);

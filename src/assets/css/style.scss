@@ -48,6 +48,9 @@ body {
     font-weight: 600;
     line-height: 0;
     letter-spacing: 0.1rem;
+    &:hover {
+      color: $whiteColor;
+    }
   }
   .btn {
     background: $gradientDark;
