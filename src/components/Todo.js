@@ -52,11 +52,11 @@ const Todo = () => {
   const listData3 = [
     { name: 'Official Merch Shop' },
     {
-      name: 'Stable Grow Event'
+      name: 'YieldBox Event'
     }
   ]
   return (
-    <div className="todo__section">
+    <div className="todo__section" id="todo__section">
       <Container className="min-vh-100 d-flex flex-column justify-content-center align-items-center">
         <Row className="my-3">
           <Col xs="12" className="todo__content">

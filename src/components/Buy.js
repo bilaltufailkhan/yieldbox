@@ -6,7 +6,7 @@ import dummyImg from '../assets/img/demo.png'
 
 const Buy = () => {
   return (
-    <div className="buy__section">
+    <div className="buy__section" id="buy__section">
       <Container className="min-vh-100 d-flex flex-column justify-content-center align-items-center">
         <Row className="w-100">
           <Col xs="12" className="text-center">

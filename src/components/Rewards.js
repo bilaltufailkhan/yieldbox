@@ -3,7 +3,7 @@ import { Col, Container, Row, Table } from "react-bootstrap";
 
 const Rewards = () => {
   return (
-    <div className="rewards__section">
+    <div className="rewards__section" id="rewards__section">
       <Container className="min-vh-100 d-flex flex-column justify-content-center align-items-center">
         <Row className="my-3">
           <Col xs="12" className="text-center rewards__content">

@@ -6,7 +6,7 @@ import reflection from "../assets/img/reflection.svg";
 
 const Staking = () => {
   return (
-    <div className="staking__section">
+    <div className="staking__section" id="staking__section">
       <Container className="min-vh-100 d-flex">
         <Row className="align-items-center w-100">
           <Col xs="12" className="text-center staking__content px-5">

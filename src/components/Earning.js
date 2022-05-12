@@ -3,7 +3,7 @@ import { Button, Col, Container, Row } from "react-bootstrap";
 
 const Earning = () => {
   return (
-    <div className="earning__section">
+    <div className="earning__section" id="earning__section">
       <Container className="min-vh-100 d-flex">
         <Row className="justify-content-center align-items-center w-100">
           <Col xs="12" md="6" className="earning__content">

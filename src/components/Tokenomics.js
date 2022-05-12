@@ -5,7 +5,7 @@ import dummyImg from '../assets/img/demo.png'
 
 const Tokenomics = () => {
   return (
-    <div className="tokenomics__section">
+    <div className="tokenomics__section" id="tokenomics__section">
       <Container className="min-vh-100 d-flex flex-column justify-content-center">
         <Row className="w-100">
           <Col xs="12" md="6" className="tokenomics__content vw-100 text-center">

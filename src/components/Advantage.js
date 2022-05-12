@@ -8,7 +8,7 @@ import cross from '../assets/img/cross.png'
 
 const Advantage = () => {
   return (
-    <div className="advantage__section">
+    <div className="advantage__section" id="advantage__section">
       <Container className="min-vh-100 d-flex flex-column justify-content-center align-items-center">
         <Row className="my-3">
           <Col xs="12" className="text-center advantage__content">

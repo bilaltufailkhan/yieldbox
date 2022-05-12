@@ -14,11 +14,13 @@ import MobileApp from "../components/MobileApp";
 import Rewards from "../components/Rewards";
 import Todo from "../components/Todo";
 import Tokenomics from "../components/Tokenomics";
+import SideNavigation from "../components/global/SideNavigation";
 
 const AdminView = (props) => {
   return (
-    <>
+    <div className="main__view">
       <Navigation />
+      <SideNavigation />
       <Container fluid>
         <Row>
           <Col>
@@ -64,7 +66,7 @@ const AdminView = (props) => {
         </Row>
       </Container>
       <Footer />
-    </>
+    </div>
   );
 };
 

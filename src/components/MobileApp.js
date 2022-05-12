@@ -3,7 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 
 const MobileApp = () => {
   return (
-    <div className="mobileapp__section">
+    <div className="mobileapp__section" id="mobileapp__section">
       <Container className="min-vh-100 d-flex flex-column justify-content-center align-items-center">
         <Row className="w-100">
           <Col xs="12" className="text-center">
