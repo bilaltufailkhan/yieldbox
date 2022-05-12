@@ -470,6 +470,12 @@ span {
 
 @media screen and (min-width: 1280px) {
   .side__nav {
-    padding: 5rem 10rem;
+    padding: 5rem 0;
+  }
+}
+
+@media screen and (min-width: 1281px) {
+  .side__nav {
+    padding: 5rem 0;
   }
 }
