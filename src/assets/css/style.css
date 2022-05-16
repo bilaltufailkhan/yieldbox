@@ -225,12 +225,16 @@ span {
 
 .nft__section ul {
   color: #ffffff;
-  list-style-image: url("../img/navlink.svg");
+  list-style-image: url("../img/bullet1.png");
   list-style-type: none;
   background-position: 0 0;
-  background-size: 1.6rem 1.6rem;
+  background-size: 2rem 2rem;
   background-repeat: no-repeat;
   list-style-position: outside;
+}
+
+.nft__section ul li {
+  line-height: 36px;
 }
 
 .nft__section ul li::marker {
@@ -406,7 +410,7 @@ span {
   text-decoration: none;
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 720px) {
   h1 {
     font-size: 1.2rem !important;
   }
@@ -444,6 +448,15 @@ span {
   .tokenomics__section {
     height: 100vh !important;
     width: 100% !important;
+  }
+  .w-100 {
+    width: auto !important;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .min-vh-100 {
+    height: auto;
   }
 }
 /*# sourceMappingURL=style.css.map */

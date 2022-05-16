@@ -10,6 +10,16 @@ $backgroundGradient: radial-gradient(
   rgba(18, 19, 29, 1) 98%
 );
 
+$backgroundGradient2: radial-gradient(
+  circle,
+  rgba(119, 74, 174, 1) 98%,
+  rgba(118, 21, 137, 1) 77%,
+  rgba(79, 20, 95, 1) 50%,
+  rgba(54, 20, 68, 1) 30%,
+  rgba(18, 19, 29, 1) 15%,
+  rgba(18, 19, 29, 1) 0%
+);
+
 $whiteColor: #ffffff;
 
 $primaryColor: rgba(8, 152, 107, 1);

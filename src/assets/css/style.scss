@@ -205,13 +205,15 @@ span {
   }
   ul {
     color: $whiteColor;
-    list-style-image: url("../img/navlink.svg");
+    list-style-image: url("../img/bullet1.png");
     list-style-type: none;
     background-position: 0 0;
-    background-size: 1.6rem 1.6rem;
+    background-size: 2rem 2rem;
     background-repeat: no-repeat;
     list-style-position: outside;
+
     li {
+      line-height: 36px;
       &::marker {
         font-size: 1rem;
       }
@@ -410,6 +412,9 @@ span {
 
 // Responsiveness Settings
 @media screen and (max-width: 540px) {
+}
+
+@media screen and (max-width: 720px) {
   h1 {
     font-size: 1.2rem !important;
   }
@@ -452,12 +457,15 @@ span {
     height: 100vh !important;
     width: 100% !important;
   }
-}
-
-@media screen and (max-width: 720px) {
+  .w-100 {
+    width: auto !important;
+  }
 }
 
 @media screen and (max-width: 960px) {
+  .min-vh-100 {
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 1140px) {
