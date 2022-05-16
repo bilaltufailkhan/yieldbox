@@ -460,6 +460,9 @@ span {
   .w-100 {
     width: auto !important;
   }
+  .side__nav {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 960px) {

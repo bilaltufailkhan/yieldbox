@@ -28,7 +28,7 @@
 }
 
 body {
-  background: radial-gradient(circle, #774aae 0%, #761589 15%, #4f145f 30%, #361444 50%, #12131d 77%, #12131d 98%);
+  background: linear-gradient(45deg, #774aae 0%, #761589 15%, #4f145f 30%, #361444 50%, #12131d 77%, #12131d 98%);
   font-family: "Poppins", sans-serif;
 }
 
@@ -451,6 +451,9 @@ span {
   }
   .w-100 {
     width: auto !important;
+  }
+  .side__nav {
+    display: none;
   }
 }
 
