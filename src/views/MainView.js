@@ -14,6 +14,7 @@ import MobileApp from "../components/MobileApp";
 import Rewards from "../components/Rewards";
 import Todo from "../components/Todo";
 import Tokenomics from "../components/Tokenomics";
+import Nft from "../components/Nft";
 import SideNavigation from "../components/global/SideNavigation";
 
 const AdminView = (props) => {
@@ -57,6 +58,9 @@ const AdminView = (props) => {
               </Slide>
               <Slide>
                 <MobileApp />
+              </Slide>
+              <Slide>
+                <Nft />
               </Slide>
               <Slide>
                 <Faqs />

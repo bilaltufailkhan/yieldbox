@@ -36,6 +36,7 @@ span {
   color: $whiteColor;
   font-family: $fontStack;
 }
+
 .main__view {
   display: grid;
   place-items: center;
@@ -196,29 +197,68 @@ span {
   }
 }
 
+.nft__section {
+  h2 {
+    font-size: 4rem;
+    color: $primaryColor;
+    font-weight: 800;
+  }
+  ul {
+    color: $whiteColor;
+    list-style-image: url("../img/navlink.svg");
+    list-style-type: none;
+    background-position: 0 0;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+    list-style-position: outside;
+    li {
+      &::marker {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .btn__learn {
+    border: 2px solid #efefef;
+    color: #efefef;
+  }
+
+  .btn__collection {
+    background: $headingGradient;
+    color: #efefef;
+    border: none;
+  }
+}
+
 .faqs__section {
   h2 {
     font-size: 4rem;
     color: $primaryColor;
     font-weight: 800;
   }
-  .accordion {
-    background-color: transparent;
+
+  .accordion__faq {
+    &:hover {
+      cursor: pointer;
+    }
   }
-  .accordion-header {
-    background-color: transparent;
-  }
-  .accordion-button {
-    background-color: rgba($color: #000, $alpha: 0.1);
-    box-shadow: none !important;
-    border: none !important;
-    outline: 0 !important;
-    color: red !important;
-  }
-  .accordion-body {
-    background: rgba($color: #000, $alpha: 0.1);
-    text-align: center;
-  }
+  // .accordion {
+  //   background-color: transparent;
+  // }
+  // .accordion-header {
+  //   background-color: transparent;
+  // }
+  // .accordion-button {
+  //   background-color: rgba($color: #000, $alpha: 0.1);
+  //   box-shadow: none !important;
+  //   border: none !important;
+  //   outline: 0 !important;
+  //   color: red !important;
+  // }
+  // .accordion-body {
+  //   background: rgba($color: #000, $alpha: 0.1);
+  //   text-align: center;
+  // }
 }
 
 .mobileapp__section {
@@ -370,79 +410,55 @@ span {
 
 // Responsiveness Settings
 @media screen and (max-width: 540px) {
-  .side__nav {
-    display: none;
+  h1 {
+    font-size: 1.2rem !important;
+  }
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 1rem !important;
+  }
+
+  p,
+  span {
+    font-weight: 400;
+    font-size: 0.8rem !important;
+  }
+
+  .container {
+    min-height: auto !important;
+    height: auto !important;
+  }
+  .row {
+    width: auto !important;
+  }
+
+  .slider__section,
+  .about__section,
+  .advantage__section,
+  .buy__section,
+  .documents__section,
+  .earning__section,
+  .faqs__section,
+  .mobileapp__section,
+  .nft__section,
+  .rewards__section,
+  .staking__section,
+  .todo__section,
+  .tokenomics__section {
+    height: 100vh !important;
+    width: 100% !important;
   }
 }
 
 @media screen and (max-width: 720px) {
-  .side__nav {
-    display: none;
-  }
 }
 
 @media screen and (max-width: 960px) {
-  .side__nav {
-    position: fixed;
-    height: 80vh;
-    padding: 5rem 2rem;
-    right: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    a {
-      img {
-        filter: grayscale(100%);
-        width: 30px;
-      }
-      &:focus {
-        img {
-          filter: none;
-        }
-      }
-    }
-  }
 }
 
 @media screen and (max-width: 1140px) {
-  .side__nav {
-    position: fixed;
-    height: 80vh;
-    padding: 5rem 2rem;
-    right: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    a {
-      img {
-        filter: grayscale(100%);
-        width: 35px;
-      }
-      &:focus {
-        img {
-          filter: none;
-        }
-      }
-    }
-  }
-}
-
-@media screen and (max-width: 1280px) {
-  .side__nav {
-    padding: 5rem 1rem;
-  }
-}
-
-@media screen and (max-width: 1368px) {
-  .side__nav {
-    padding: 5rem 2rem;
-  }
-}
-
-@media screen and (min-width: 1369px) {
-  .side__nav {
-    padding: 5rem 10rem;
-  }
 }

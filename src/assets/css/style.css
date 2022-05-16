@@ -217,32 +217,45 @@ span {
   font-size: 1.2rem;
 }
 
+.nft__section h2 {
+  font-size: 4rem;
+  color: #08986b;
+  font-weight: 800;
+}
+
+.nft__section ul {
+  color: #ffffff;
+  list-style-image: url("../img/navlink.svg");
+  list-style-type: none;
+  background-position: 0 0;
+  background-size: 1.6rem 1.6rem;
+  background-repeat: no-repeat;
+  list-style-position: outside;
+}
+
+.nft__section ul li::marker {
+  font-size: 1rem;
+}
+
+.nft__section .btn__learn {
+  border: 2px solid #efefef;
+  color: #efefef;
+}
+
+.nft__section .btn__collection {
+  background: linear-gradient(45deg, #08986b 0%, #9b0cb4 100%);
+  color: #efefef;
+  border: none;
+}
+
 .faqs__section h2 {
   font-size: 4rem;
   color: #08986b;
   font-weight: 800;
 }
 
-.faqs__section .accordion {
-  background-color: transparent;
-}
-
-.faqs__section .accordion-header {
-  background-color: transparent;
-}
-
-.faqs__section .accordion-button {
-  background-color: rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
-  border: none !important;
-  outline: 0 !important;
-  color: red !important;
-}
-
-.faqs__section .accordion-body {
-  background: rgba(0, 0, 0, 0.1);
-  text-align: center;
+.faqs__section .accordion__faq:hover {
+  cursor: pointer;
 }
 
 .mobileapp__section h2 {
@@ -394,92 +407,43 @@ span {
 }
 
 @media screen and (max-width: 540px) {
-  .side__nav {
-    display: none;
+  h1 {
+    font-size: 1.2rem !important;
   }
-}
-
-@media screen and (max-width: 720px) {
-  .side__nav {
-    display: none;
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 1rem !important;
   }
-}
-
-@media screen and (max-width: 960px) {
-  .side__nav {
-    position: fixed;
-    height: 80vh;
-    padding: 5rem 2rem;
-    right: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+  p,
+  span {
+    font-weight: 400;
+    font-size: 0.8rem !important;
   }
-  .side__nav a img {
-    -webkit-filter: grayscale(100%);
-            filter: grayscale(100%);
-    width: 30px;
+  .container {
+    min-height: auto !important;
+    height: auto !important;
   }
-  .side__nav a:focus img {
-    -webkit-filter: none;
-            filter: none;
+  .row {
+    width: auto !important;
   }
-}
-
-@media screen and (max-width: 1140px) {
-  .side__nav {
-    position: fixed;
-    height: 80vh;
-    padding: 5rem 2rem;
-    right: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-  }
-  .side__nav a img {
-    -webkit-filter: grayscale(100%);
-            filter: grayscale(100%);
-    width: 35px;
-  }
-  .side__nav a:focus img {
-    -webkit-filter: none;
-            filter: none;
-  }
-}
-
-@media screen and (max-width: 1280px) {
-  .side__nav {
-    padding: 5rem 1rem;
-  }
-}
-
-@media screen and (max-width: 1368px) {
-  .side__nav {
-    padding: 5rem 2rem;
-  }
-}
-
-@media screen and (min-width: 1369px) {
-  .side__nav {
-    padding: 5rem 10rem;
+  .slider__section,
+  .about__section,
+  .advantage__section,
+  .buy__section,
+  .documents__section,
+  .earning__section,
+  .faqs__section,
+  .mobileapp__section,
+  .nft__section,
+  .rewards__section,
+  .staking__section,
+  .todo__section,
+  .tokenomics__section {
+    height: 100vh !important;
+    width: 100% !important;
   }
 }
 /*# sourceMappingURL=style.css.map */

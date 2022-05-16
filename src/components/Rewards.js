@@ -5,8 +5,8 @@ const Rewards = () => {
   return (
     <div className="rewards__section" id="rewards__section">
       <Container className="min-vh-100 d-flex flex-column justify-content-center align-items-center">
-        <Row className="my-3">
-          <Col xs="12" className="text-center rewards__content">
+        <Row className="my-3 justify-content-center">
+          <Col xs="8" className="text-center rewards__content">
             <h2>APY/Dual Reward Tax</h2>
             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantiu m doloremque laudantium, totam rem aperiam, eaque ipsa.</p>
           </Col>

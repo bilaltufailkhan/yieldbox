@@ -11,12 +11,12 @@ class Faqs extends React.Component {
       <div className="faqs__section" id="faqs__section">
         <Container className="min-vh-100 d-flex flex-column justify-content-center align-items-center">
           <Row className="w-100 justify-content-center">
-            <Col xs="12" className="text-center">
+            <Col xs="8" className="text-center">
               <h2>FAQs</h2>
             </Col>
             <Col md={8} className="mb-3">
               <div
-                className="d-flex align-items-center text-center"
+                className="d-flex accordion__faq align-items-center text-center"
                 style={{
                   color: "#fff",
                   border: "none",
@@ -47,7 +47,7 @@ class Faqs extends React.Component {
 
             <Col md={8} className="mb-3">
               <div
-                className="d-flex align-items-center"
+                className="d-flex accordion__faq align-items-center"
                 style={{
                   color: "#fff",
                   border: "none",
@@ -77,7 +77,7 @@ class Faqs extends React.Component {
 
             <Col md={8} className="mb-3">
               <div
-                className="d-flex align-items-center"
+                className="d-flex accordion__faq align-items-center"
                 style={{
                   color: "#fff",
                   border: "none",
@@ -107,7 +107,7 @@ class Faqs extends React.Component {
 
             <Col md={8} className="mb-3">
               <div
-                className="d-flex align-items-center"
+                className="d-flex accordion__faq align-items-center"
                 style={{
                   color: "#fff",
                   border: "none",
