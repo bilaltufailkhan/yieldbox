@@ -4,7 +4,7 @@ import logo from "../assets/img/logo.svg";
 
 const Slider = () => {
   return (
-    <div className="slider__section" id="slider__section">
+    <div className="bgImg slider__section" id="slider__section">
       <Container className="min-vh-100 d-flex">
         <Row className="align-items-center w-100">
           <Col xs="12" className="text-center slider__content">

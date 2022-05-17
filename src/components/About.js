@@ -3,9 +3,9 @@ import { Button, Col, Container, Row } from "react-bootstrap";
 
 const About = () => {
   return (
-    <div className="about__section" id="about__section">
-      <Container className="min-vh-100 d-flex">
-        <Row className="align-items-center">
+    <div className="bgImg about__section" id="about__section">
+      <div className="container-md min-vh-100 d-flex">
+        <Row className="w-100 align-items-center">
           <Col xs="12" className="text-center about__content">
             <Container>
               <p>
@@ -14,20 +14,20 @@ const About = () => {
               </p>
             </Container>
             <Row className="justify-content-center">
-              <Col md="3" sm="12" className="my-3">
-                <Button className="btn-gradient-dark btn-block btn-lg">
+              <Col lg="3" md="6" sm="12" className="my-3">
+                <Button className="btn-gradient btn-block btn-lg btn">
                   Buy on Pancakes
                 </Button>
               </Col>
-              <Col md="3" sm="12" className="my-3">
-                <Button className="btn-gradient-dark btn-block btn-lg">
+              <Col lg="3" md="6" sm="12" className="my-3">
+                <Button className="btn-gradient btn-block btn-lg btn">
                   Read Whitepaper
                 </Button>
               </Col>
             </Row>
           </Col>
         </Row>
-      </Container>
+      </div>
     </div>
   );
 };

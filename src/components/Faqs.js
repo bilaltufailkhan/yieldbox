@@ -8,8 +8,8 @@ class Faqs extends React.Component {
   };
   render() {
     return (
-      <div className="faqs__section" id="faqs__section">
-        <Container className="min-vh-100 d-flex flex-column justify-content-center align-items-center">
+      <div className="bgImg faqs__section" id="faqs__section">
+        <div className="container-md min-vh-100 d-flex flex-column justify-content-center align-items-center">
           <Row className="w-100 justify-content-center">
             <Col xs="8" className="text-center">
               <h2>FAQs</h2>
@@ -135,7 +135,7 @@ class Faqs extends React.Component {
               </Collapse>
             </Col>
           </Row>
-        </Container>
+        </div>
       </div>
     );
   }

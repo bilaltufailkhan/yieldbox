@@ -2,68 +2,69 @@ import React from "react";
 import { Button, Card, Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-import dummyImg from '../assets/img/demo.png'
+import file from '../assets/img/file.png'
+import audit from '../assets/img/audit.png'
 
 const Documents = () => {
   return (
-    <div className="documents__section" id="documents__section">
-      <Container className="min-vh-100 d-flex flex-column justify-content-center align-items-center">
+    <div className="bgImg documents__section" id="documents__section">
+      <div className="container-md min-vh-100 d-flex flex-column justify-content-center align-items-center">
         <Row className="w-100 justify-content-center">
           <Col xs="8" className="text-center">
             <h2>Documents</h2>
             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantiu m doloremque laudantium, totam rem aperiam, eaque ipsa.</p>
           </Col>
           <Col xs="12" className="text-center">
-            <Row className="justify-content-center mt-5 w-100">
-              <Col md="2" sm="6">
+            <div className="Documents-row">
+              <Col lg="2" md="4" className="mb-md-3 mb-sm-3">
                 <Card className="text-center text-white p-3">
                   <div className="card__content">
-                    <img alt="card img" width={80} src={dummyImg} />
+                    <img alt="card img" width={80} src={file} />
                     <h5>Contract<br />Address</h5>
                     <Link className="btn btn__link"><i class="fa-solid fa-paperclip"></i></Link>
                   </div>
                 </Card>
               </Col>
-              <Col md="2" sm="6">
+              <Col lg="2" md="4" className="mb-md-3 mb-sm-3">
                 <Card className="text-center text-white p-3">
                   <div className="card__content">
-                    <img alt="card img" width={80} src={dummyImg} />
+                    <img alt="card img" width={80} src={audit} />
                     <h5>Interfi<br />Audit</h5>
                     <Link className="btn btn__link"><i class="fa-solid fa-paperclip"></i></Link>
                   </div>
                 </Card>
               </Col>
-              <Col md="2" sm="6">
+              <Col lg="2" md="4" className="mb-md-3 mb-sm-3">
                 <Card className="text-center text-white p-3">
                   <div className="card__content">
-                    <img alt="card img" width={80} src={dummyImg} />
+                    <img alt="card img" width={80} src={audit} />
                     <h5>Certik<br />Audit</h5>
                     <Link className="btn btn__link"><i class="fa-solid fa-paperclip"></i></Link>
                   </div>
                 </Card>
               </Col>
-              <Col md="2" sm="6">
+              <Col lg="2" md="4" className="mb-md-3 mb-sm-3">
                 <Card className="text-center text-white p-3">
                   <div className="card__content">
-                    <img alt="card img" width={80} src={dummyImg} />
+                    <img alt="card img" width={80} src={file} />
                     <h5>English<br />Whitepaper</h5>
                     <Link className="btn btn__link"><i class="fa-solid fa-paperclip"></i></Link>
                   </div>
                 </Card>
               </Col>
-              <Col md="2" sm="6">
+              <Col lg="2" md="4" className="mb-md-3 mb-sm-3">
                 <Card className="text-center text-white p-3">
                   <div className="card__content">
-                    <img alt="card img" width={80} src={dummyImg} />
+                    <img alt="card img" width={80} src={file} />
                     <h5>Chinese<br />Whitepaper</h5>
                     <Link className="btn btn__link"><i class="fa-solid fa-paperclip"></i></Link>
                   </div>
                 </Card>
               </Col>
-            </Row>
+            </div>
           </Col>
         </Row>
-      </Container>
+      </div>
     </div>
   );
 };

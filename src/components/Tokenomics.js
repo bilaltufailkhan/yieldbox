@@ -1,19 +1,22 @@
 import React from "react";
 import { Card, Col, Container, Row, Table } from "react-bootstrap";
 
-import dummyImg from '../assets/img/demo.png'
+import dummyImg from '../assets/img/liquidity.png'
+import rewards from '../assets/img/rewards.png'
+import yieldbox from '../assets/img/yieldbox.png'
+import yieldinferno from '../assets/img/yieldinferno.png'
 
 const Tokenomics = () => {
   return (
-    <div className="tokenomics__section" id="tokenomics__section">
-      <Container className="min-vh-100 d-flex flex-column justify-content-center">
+    <div className="bgImg tokenomics__section" id="tokenomics__section">
+      <div className="container-md min-vh-100 d-flex flex-column justify-content-center">
         <Row className="w-100">
-          <Col xs="12" md="6" className="tokenomics__content vw-100 text-center">
+          <Col xs="12" md="6" className="tokenomics__content text-center">
             <h2>Tokenomics</h2>
           </Col>
         </Row>
         <Row className="align-items-center w-100">
-          <Col lg="6" md="12" className="my-3">
+          <Col lg="6" md="12" className="my-3 tokenomics__table">
             <Table responsive="sm">
               <tr>
                 <td>Token Name:</td>
@@ -51,7 +54,7 @@ const Tokenomics = () => {
                 <Col xs="6">
                   <Card className="text-center text-white p-3">
                     <div className="card__content">
-                      <img alt="card img" src={dummyImg} />
+                      <img alt="card img" src={rewards} />
                       <h5>Rewards</h5>
                     </div>
                   </Card>
@@ -61,7 +64,7 @@ const Tokenomics = () => {
                 <Col xs="6">
                   <Card className="text-center text-white p-3">
                     <div className="card__content">
-                      <img alt="card img" src={dummyImg} />
+                      <img alt="card img" src={yieldbox} />
                       <h5>Yieldbox Treasury</h5>
                     </div>
                   </Card>
@@ -69,7 +72,7 @@ const Tokenomics = () => {
                 <Col xs="6">
                   <Card className="text-center text-white p-3">
                     <div className="card__content">
-                      <img alt="card img" src={dummyImg} />
+                      <img alt="card img" src={yieldinferno} />
                       <h5>Yieldbox Inferno</h5>
                     </div>
                   </Card>
@@ -78,7 +81,7 @@ const Tokenomics = () => {
             </Container>
           </Col>
         </Row>
-      </Container>
+      </div>
     </div>
   );
 };

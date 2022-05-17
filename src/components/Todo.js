@@ -56,8 +56,8 @@ const Todo = () => {
     }
   ]
   return (
-    <div className="todo__section" id="todo__section">
-      <Container className="min-vh-100 d-flex flex-column justify-content-center align-items-center">
+    <div className="bgImg todo__section" id="todo__section">
+      <div className="container-md min-vh-100 d-flex flex-column justify-content-center align-items-center">
         <Row className="my-3">
           <Col xs="12" className="todo__content">
             <h2>Todo</h2>
@@ -98,7 +98,7 @@ const Todo = () => {
             </div>
           </Col>
         </Row>
-      </Container>
+      </div>
     </div>
   );
 };

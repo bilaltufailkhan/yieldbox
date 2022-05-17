@@ -411,6 +411,7 @@ span {
 }
 
 // Responsiveness Settings
+
 @media screen and (max-width: 540px) {
 }
 
@@ -455,6 +456,7 @@ span {
   .todo__section,
   .tokenomics__section {
     height: 100vh !important;
+    // height: 100% !important;
     width: 100% !important;
   }
   .w-100 {

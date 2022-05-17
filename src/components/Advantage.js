@@ -8,8 +8,8 @@ import cross from '../assets/img/cross.png'
 
 const Advantage = () => {
   return (
-    <div className="advantage__section" id="advantage__section">
-      <Container className="min-vh-100 d-flex flex-column justify-content-center align-items-center">
+    <div className="bgImg advantage__section" id="advantage__section">
+      <div className="container-md min-vh-100 d-flex flex-column justify-content-center align-items-center">
         <Row className="my-3">
           <Col xs="12" className="text-center advantage__content">
             <h2>Competitive Advantage</h2>
@@ -21,7 +21,7 @@ const Advantage = () => {
               <thead>
                 <tr>
                   <th>Features</th>
-                  <th><img src={logo} width="20px" height="auto" alt="Yield Box" /> Yield Box</th>
+                  <th><img src={logo} width="30px" height="auto" alt="Yield Box" /> Yield Box</th>
                   <th>SAFUU</th>
                   <th>LIBERO</th>
                   <th>TITANO</th>
@@ -74,7 +74,7 @@ const Advantage = () => {
             </Table>
           </Col>
         </Row>
-      </Container>
+      </div>
     </div>
   );
 };

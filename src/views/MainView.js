@@ -41,7 +41,7 @@ const AdminView = (props) => {
         {windowWidth < 720 ? null : <SideNavigation />}
         <Container fluid>
           <Row>
-            <Col>
+            <Col className='p-0'>
               <FullPage duration={100}>
                 <Slide>
                   <Slider />
@@ -105,7 +105,7 @@ const AdminView = (props) => {
           <Rewards />
           <Todo />
           <Documents />
-          <Buy />
+          {/* <Buy /> */}
           <MobileApp />
           <Nft />
           <Faqs />
